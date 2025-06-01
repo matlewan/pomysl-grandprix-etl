@@ -136,5 +136,5 @@ if __name__ == "__main__":
     # process_and_save()
     tournaments = load('data/pomysl-grand-prix/tournaments')
     data = process(tournaments)
-    save('../frontend/public/out.json', data)
+    # save('../frontend/public/out.json', data)
     save('data/pomysl-grand-prix/out.json', data)
